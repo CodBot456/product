@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input,
+button {
+    border: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 6, 77);
+}
+
+.generator {
+    background: rgb(62, 8, 112);
+    backdrop-filter: blur(14, 399px);
+    border: 1px solid rgba(83, 1, 160, 0.486);
+    border-radius: 48px;
+    padding: 48px 50px;
+    flex: 0 1 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.generator_title {
+    padding-bottom: 10px;
+}
+
+.generator_item {
+    padding: 10px 0;
+}
+
+.generator_input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+.radio_group {
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.generator_input_radio {
+    display: none;
+}
+
+.generator_label_radio {
+    gap: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #321b43;
+    padding: 6px 15px;
+    user-select: none;
+    color: rgb(170, 170, 170);
+    border-radius: 25px;
+    transition: color 0.3s;
+}
+
+.generator_input_radio:checked+.generator_label_radio {
+    color: white;
+}
+
+.generate_class {
+    background-color: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.qr_code {
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 15px 0;
+    height: 350px;
+    border-radius: 30px;
+
+}
+
+.dawnload_class {
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
